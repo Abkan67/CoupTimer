@@ -1,0 +1,23 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+#number{
+  font-size: 50px;
+}
+button {
+  width: 100px;
+  height: 85px;
+  font-size: 18px;
+  margin: 20px;
+}
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  top: 50px;
+  width: 80%;
+  padding: 5px;
+}
